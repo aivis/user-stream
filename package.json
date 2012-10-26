@@ -6,6 +6,6 @@
 	"preferGlobal": "true",
 	"author": "Aivis Silins",
 	"dependencies": {
-		"oatuh": "0.9.8"
+		"oauth": "0.9.8"
 	}
 }
