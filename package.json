@@ -1,0 +1,11 @@
+{
+	"name": "user-stream",
+	"version": "0.0.1",
+	"description": "Simple twitter user stream client. Only one dependency (oauth).",
+	"keywords": ["twitter","streaming"], 
+	"preferGlobal": "true",
+	"author": "Aivis Silins",
+	"dependencies": {
+		"oatuh": "0.9.8"
+	}
+}
