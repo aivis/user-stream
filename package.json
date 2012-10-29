@@ -11,5 +11,5 @@
 	"repository" : {
 		"type": "git",
 		"url": "git@github.com:aivis/user-stream.git"
-	},
+	}
 }
