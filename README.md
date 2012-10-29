@@ -1,10 +1,8 @@
 user-stream
 =============
-### Version: 0.0.2 ###
+### Version: 0.0.3 ###
 
 Simple Node.js Twitter (API 1.1) user stream client (https://dev.twitter.com/docs/streaming-apis/streams/user)
-
-Currently in development (also README file)!
 
 Install
 -------
@@ -15,10 +13,10 @@ Usage
 ```javascript
 var Stream = require('user-stream');
 var stream = new Stream({
-    consumer_key: 'xxx',
-    consumer_secret: 'xxx',
-    access_token_key: 'xxx',
-    access_token_secret: 'xxx'
+    consumer_key: '',
+    consumer_secret: '',
+    access_token_key: '',
+    access_token_secret: ''
 });
 
 //create stream
@@ -32,14 +30,14 @@ stream.on('data', function(json) {
 
 Events
 -------
-- ```data```
-- ```garbage```
-- ```close```
-- ```error```
-- ```connected```
-- ```heartbeat```
+- ```data```        - stream data in JSON format
+- ```garbage```     - stream data who can't be parsed to JSON
+- ```close```       - stream close event (stream connection closed)
+- ```error```       - error event (request error, response error, response status code greater than 200)
+- ```connected```   - stream created
+- ```heartbeat```   - twitter emitted heartbeat
 
 Methods
 -------
-- ```stream```
-- ```destroy```
+- ```stream```  - create stream connection
+- ```destroy``` - destroy/close stream connection
