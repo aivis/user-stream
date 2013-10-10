@@ -1,6 +1,6 @@
 user-stream
 =============
-### Version: 0.0.6 ###
+### Version: 0.0.7 ###
 
 Simple Node.js Twitter (API 1.1) user stream client (https://dev.twitter.com/docs/streaming-apis/streams/user)
 
