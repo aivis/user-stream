@@ -41,3 +41,15 @@ Methods
 -------
 - ```stream```  - create stream connection
 - ```destroy``` - destroy/close stream connection
+
+### Streaming API request parameters [link](https://dev.twitter.com/docs/streaming-apis/parameters) ###
+```javascript
+var params = {
+    with: 'user'
+}
+//create stream
+stream.stream(params);
+```
+#### Reserved parameters for lib
+- ```delimited``` 
+- ```stall_warnings```
