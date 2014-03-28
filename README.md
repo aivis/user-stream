@@ -1,8 +1,10 @@
 user-stream
 =============
-### Version: 0.0.7 ###
+[![NPM module](https://badge.fury.io/js/user-stream.png)](https://badge.fury.io/js/user-stream)
 
 Simple Node.js Twitter (API 1.1) user stream client (https://dev.twitter.com/docs/streaming-apis/streams/user)
+
+[![NPM](https://nodei.co/npm/user-stream.png?stars&downloads)](https://nodei.co/npm/user-stream/)
 
 Install
 -------
